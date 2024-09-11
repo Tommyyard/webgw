@@ -1,0 +1,98 @@
+body {
+    background-image: url(item/pexels-jplenio-2850287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #0000;
+    /* overflow: auto; */
+    width: 100%;
+    position: sticky;
+    max-height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    /* backdrop-filter: blur(10px); */
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* justify-content: end; */
+    padding-right: 1rem;
+    list-style: none;
+}
+
+li{
+    padding-right: 3rem;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+hr {
+    width: 80%;
+    top: 0;
+    bottom: 10px;
+}
+
+button {
+    background-color: rgb(149, 225, 255);
+    /* backdrop-filter: blur(5px); */
+    width: 95px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+a:hover {
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.bg-kirimpesan {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.kirim-pesan1, .kirim-pesan2 {
+    width: 400px;
+    /* background-color: aqua; */
+    backdrop-filter: blur(50px);
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #B3A8CF;
+    text-align: left;
+}
